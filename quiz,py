@@ -1,0 +1,34 @@
+import json
+
+points = 0
+
+def show_question(questions):
+    global points
+    print()
+    print(questions['pytanie'])
+    print('a)',questions['a'])
+    print('b)',questions['b'])
+    print('c)',questions['c'])
+    print('d)',questions['d'])
+    print()
+    
+    answer = input('Którą odpowiedż wybierasz?')
+    
+    if answer == questions["prawidłowa odpowiedź"]:
+        points += 1
+        print('To prawidłowa odpowiedź. Masz już', points, 'punktów')
+    else:
+        print('To zła prawidłowa odpowiedź. Prawidłowa odpowiedź to:', questions["prawidłowa odpowiedź"])
+        
+
+with open('quiz.json') as json_file:
+   questions = json.load(json_file)
+   
+   for i in range(0, len(questions)):
+       show_question(questions[i])
+       
+       
+       
+print()
+print('Koniec gry.\t Liczba zdobytych punktów to:', points)
+
