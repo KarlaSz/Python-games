@@ -1,0 +1,26 @@
+[
+    {
+        "pytanie":"Dokończ tytuł słynnego westernu: 'Dobry, zły i...'",
+        "a":'brzydki',
+        "b":'głupi',
+        "c":'fajny',
+        "d":'głodny',
+        "prawidłowa odpowiedź":"a"
+    },
+    {
+        "pytanie":"Z iloma krajami graniczy Polska?",
+        "a":8,
+        "b":6,
+        "c":9,
+        "d":7,
+        "prawidłowa odpowiedź":"d"
+    },
+    {
+        "pytanie":"Data terrorystycznego ataku na WTC to:",
+        "a":"11 pażdziernika 2001 r.",
+        "b":"11 września 2001 r.",
+        "c":"11 sierpnia 2001 r.",
+        "d":"11 września 2010 r.",
+        "prawidłowa odpowiedź":"b"
+    }
+]
